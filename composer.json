@@ -1,0 +1,24 @@
+{
+    "name": "xu/travis-test",
+    "description": "Test Travis CI",
+    "type": "library",
+
+    "require": {
+        "phpunit/phpunit": "^5 || ^7"
+    },
+
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Xu\\TravisTest\\": "src/"
+        }
+    },
+
+    "authors": [
+        {
+            "name": "xu.li",
+            "email": "athenalightenedmypath@gmail.com"
+        }
+    ]
+}
